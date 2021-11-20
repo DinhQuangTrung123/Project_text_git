@@ -18,3 +18,4 @@ def tinh1GT(n):
     return n*tinhGT(n-1)
 
 print(tổng số lẻ)
+print("tính tổng số chẵn")
