@@ -17,5 +17,5 @@ def tinh2GT(n):
         return 1
     return n*tinhGT(n-1)
 
-print("tổng số lẻ")
+print("tổng số lẻ")print("tổng số lẻ")print("tổng số lẻ")print("tổng số lẻ")print("tổng số lẻ")
 print("tính tổng số chẵn")
