@@ -10,6 +10,3 @@ def calculate_something(a, b, c, d, e, f, g, h):
     if (i % 2) == 1:
         i += 1
     return i + j + k + m 
-    # print(a)
-    # print(m)
-    # return i + j + k + m 
