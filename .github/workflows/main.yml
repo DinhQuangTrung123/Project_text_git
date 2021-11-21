@@ -1,11 +1,11 @@
 # This is a basic workflow to help you get started with Actions
-
+# workflow_dispatch
 name: CI
 
-on: [push, pull_request, workflow_dispatch]
-
+on: [push, pull_request]
+#
 jobs:
-  python-lint:
+  check-python-version:
     runs-on: ubuntu-latest
     name: CI workflow
     steps:
