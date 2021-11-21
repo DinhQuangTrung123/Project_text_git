@@ -1,7 +1,6 @@
 
-
 # tăng dân
-a=[5,8,4,1,2,3,9]
+a=[ 5, 8, 4, 1, 2, 3, 9]
 for i in range(len(a)):
     for j in range(len(a)-1):
         if a[i] > a[j]:
@@ -10,7 +9,7 @@ for i in range(len(a)):
             a[j] = tam
 
 # giảm dần
-a=[5,8,4,1,2,3,9]
+a=[5, 8, 4, 1, 2, 3, 9]
 for i in range(len(a)):
     for j in range(len(a)-1):
         if a[i] < a[j]:
