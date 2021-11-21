@@ -1,19 +1,12 @@
-
-
-a = [5, 8, 4, 1, 2, 3, 9]
-for i in range(len(a)):
-    for j in range(len(a) - 1):
-        if a[i] < a[j]:
-            tam = a[i]
-            a[i] = a[j]
-            a[j] = tam
-
-# giảm dần
-a = [5, 8, 4, 1, 2, 3, 9]
-for i in range(len(a)):
-    for j in range(len(a) - 1):
-        if a[i] < a[j]:
-            tam = a[i]
-            a[i] = a[j]
-            a[j] = tam
-
+# ======================
+# myAnotherPythonFile.py
+# ======================
+def calculate_something(a, b, c, d, e, f, g, h):
+    i = a + b
+    j = (c + d) / 2
+    k = e * f
+    m = g - h
+    # Check if i is an odd number
+    if (i % 2) == 1:
+        i += 1
+    return i + j + k + m
