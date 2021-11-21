@@ -11,3 +11,4 @@ def calculate_something(a, b, c, d, e, f, g, h):
         i += 1
     return i + j + k + m print(a)
  
+    return i + j + k + m print(m)
