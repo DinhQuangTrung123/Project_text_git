@@ -17,5 +17,3 @@ for i in range(len(a)):
             a[i] = a[j]
             a[j] = tam
 
-
-a = 5 + 6
