@@ -7,6 +7,6 @@ def calculate_something(a, b, c, d, e, f, g, h):
     k = e * f
     m = g - h
     # Check if i is an odd number
-    if (i % 2) == 1:
+    if (i % 2) ==1:
         i += 1
     return i + j + k + m

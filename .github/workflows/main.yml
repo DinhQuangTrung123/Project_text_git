@@ -1,5 +1,7 @@
 # This is a basic workflow to help you get started with Actions
 # workflow_dispatch
+# mypy-flags: ''
+# fail-on-isort: true
 name: CI
 
 on: [push, pull_request]
@@ -17,5 +19,4 @@ jobs:
       with:
         python-root: '.'
         flake8-flags: ''
-        # mypy-flags: ''
-        # fail-on-isort: true
+     
