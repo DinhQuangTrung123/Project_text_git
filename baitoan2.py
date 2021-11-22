@@ -11,7 +11,7 @@ def calculate_something(a, b, c, d, e, f, g, h):
         i += 1
     return i + j + k + m
 
-def calculate_something1(a, b, c, d, e, f, g, h):
+def calculate_something(a, b, c, d, e, f, g, h):
     i = a + b
     j = (c + d) / 2
     k = e * f
@@ -20,4 +20,3 @@ def calculate_something1(a, b, c, d, e, f, g, h):
     if (i % 2) == 1:
         i += 1
     return i + j + k + m
-
