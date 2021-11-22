@@ -12,7 +12,7 @@ def calculate_something(a, b, c, d, e, f, g, h):
     return i + j + k + m
 
 
-def calculate_something(a, b, c, d, e, f, g, h):
+def calculate_something1(a, b, c, d, e, f, g, h):
     i = a + b
     j = (c + d) / 2
     k = e * f
