@@ -20,4 +20,4 @@ def calculate_something1(a, b, c, d, e, f, g, h):
     # Check if i is an odd number
     if (i % 2) == 1:
         i += 1
-    return i + j + k + m
+    return i + j + k + m 
